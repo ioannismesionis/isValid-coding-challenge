@@ -33,11 +33,11 @@ def isValid(string):
     """
     # 1. Capture the default case of empty string
     if len(string) == 0:
-        is_valid = 'No'
+        return 'No'
 
     # 2. Capture the default case of just a single character
     if len(string) == 1:
-        is_valid = 'Yes'
+        return 'Yes'
 
     # 3. Capture scenario with multiple characters
     # 3.1 Capture the frequencies of each character in the string
